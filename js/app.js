@@ -1,14 +1,25 @@
 function adicionar(){
 
     //Assume o valor de preço, nome do produto e quantidade
-    let formulario = document.querySelector(".produto-input");
+    let formulario = document.getElementById("produto");
     let produtoSelecionado = formulario.value;
     let quantidade = document.getElementById("quantidade").value;
 
+    let nome = produtoSelecionado.split(" - R$")[0];
+    let preco = produtoSelecionado.split(" - R$")[1];
+
+    /*
     let parte = produtoSelecionado.split(" - R$");
     let nome = parte[0];
     let preco = parseFloat(parte[1]);
+    */
     
+    let listaProdutos = document.getElementById("lista-produtos");
+    listaProdutos.innerHTML = listaProdutos.innerHTML + `<section class="carrinho__produtos__produto">
+    <span class="texto-azul">${quantidade}x</span> ${nome} <span class="texto-azul">R$${preco}</span>
+  </section>`
+
+    /*
     //Cria o formato HTML para ser adicionado no carrinho
     let listaProdutos = document.getElementById("lista-produtos");
     let produtoAdicionado = document.createElement("section");
@@ -26,8 +37,8 @@ function adicionar(){
     produtoAdicionado.appendChild(spanQuantidade);
     produtoAdicionado.appendChild(textNome);
     produtoAdicionado.appendChild(spanPreco);
-
     listaProdutos.appendChild(produtoAdicionado);
+    */
 
     //Calcula o Valor Total
     let valorTotal = document.getElementById("valor-total");
