@@ -13,6 +13,11 @@ function adicionar(){
     let nome = parte[0];
     let preco = parseFloat(parte[1]);
     */
+
+    if (quantidade == ""){
+      alert("Insira uma quantidade válida");
+      return;
+    }
     
     let listaProdutos = document.getElementById("lista-produtos");
     listaProdutos.innerHTML = listaProdutos.innerHTML + `<section class="carrinho__produtos__produto">
