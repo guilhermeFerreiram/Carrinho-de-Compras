@@ -9,14 +9,20 @@
 <h2 align="center">🗂 Sumário</h2>
 <p align="center">
   <a href="#descricao">Descrição do projeto</a> &bull; 
-  <a href="#tecnologias">Tecnologias</a> &bull; 
+   <a href="#tecnicas">Técnicas utilizadas</a> &bull;
+   <a href="#tecnologias">Tecnologias</a> &bull; 
   <a href="#autor">Autor</a> &bull; 
   <a href="#licenca">Licença</a>
 </p>
 
 <h2 align="center" id="descricao">🗒 Descrição do projeto</h2>
-<p align="center">Este projeto gerencia a adição de produtos a um carrinho de compras em uma aplicação web. Ao selecionar um produto e inserir a quantidade desejada, o código processa essas informações, exibindo o item na lista de produtos do carrinho com o nome, quantidade e preço. A função também calcula e atualiza o valor total do carrinho. A função correspondente limpa a lista de produtos e reinicia o valor total do carrinho. O código utiliza manipulação do DOM, validação de entrada e formatação de strings para alcançar essas funcionalidades.</p>
+<p align="center">Este projeto gerencia a adição de produtos a um carrinho de compras em uma aplicação web. Ao selecionar um produto e inserir a quantidade desejada, o código processa essas informações, exibindo o item na lista de produtos do carrinho com o nome, quantidade e preço. A função também calcula e atualiza o valor total do carrinho. A função correspondente limpa a lista de produtos e reinicia o valor total do carrinho.</p>
 <blockquote> Projeto Concluído :heavy_check_mark:</blockquote>
+
+<h2 align="center" id="tecnicas">👨‍💻 Técnicas utilizadas</h2>
+<p align="center">
+Manipulação do DOM &bull; Validação de entrada &bull; Formatação de strings
+</p>
 
 <h2 align="center" id="tecnologias">🖱 Tecnologias</h2>
 <p align="center"><img src="https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E"/> <img src="https://img.shields.io/badge/HTML5-323330?logo=html5"/> <img src="https://img.shields.io/badge/CSS3-323330?logo=css3"/></p>
