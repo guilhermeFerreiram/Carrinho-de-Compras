@@ -2,7 +2,7 @@
 
 <p align="center"><a href="https://github.com/guilhermeFerreiram/Carrinho-de-Compras/blob/main/LICENSE"><img src="https://img.shields.io/github/license/guilhermeFerreiram/Carrinho-de-Compras?labelColor=323330"/></a> <img src="https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E"/> <br> <a href="https://carrinho-de-compras-inky-delta.vercel.app/"><img src="https://img.shields.io/badge/Visite_o_site_aqui-993399"/></a></p>
 
-<p align="center"><img src="https://github.com/guilhermeFerreiram/Carrinho-de-Compras/blob/main/assets/icone-carrinho.svg" width="500px"/></p>
+<p align="center"><img src="https://github.com/guilhermeFerreiram/Carrinho-de-Compras/blob/main/assets/icone-carrinho.svg" width="100px"/></p>
 
 ---
 
